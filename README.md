@@ -13,13 +13,18 @@ There was no/minimal lag as such in terms of receiving messages at subscriber en
 loop rate it can achieve. 
 - The maximum rate I could achieve was ~30000
 
-- [ INFO] [1570964818.429091960]: Measured Loop rate = 29847
-- [ INFO] [1570964819.429338610]: Measured Loop rate = 29930
-- [ INFO] [1570964820.428641837]: Measured Loop rate = 29712
-- [ INFO] [1570964821.428855677]: Measured Loop rate = 29896
-- [ INFO] [1570964822.429023938]: Measured Loop rate = 29950
-- [ INFO] [1570964823.429304461]: Measured Loop rate = 29563
-- [ INFO] [1570964824.428520047]: Measured Loop rate = 29745
+
+### Cpp Publisher - Python Subscriber
+
+- The maximum rate I could achieve was ~30000
+
+### Python Publisher - Cpp Subscriber
+Subscriber in this case was not as much limites as the the publisher.
+- The maximum rate I could achieve was ~18000
+
+### Python Publisher - Cpp Subscriber
+- The maximum rate I could achieve was ~18500
+
 
 
 
