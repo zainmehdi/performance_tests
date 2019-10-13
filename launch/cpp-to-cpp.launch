@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+        <rosparam command = "load" file= "$(find performance_test)/params.yaml" />
+        <node pkg="performance_test" type="publisher_cpp" name="talker" output="screen"/>
+
+        <node pkg="performance_test" type="subscriber_cpp" name="listener" output="screen"/>
+
+</launch>

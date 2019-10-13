@@ -1,0 +1,10 @@
+<launch>
+
+        <rosparam command = "load" file= "$(find performance_test)/params.yaml" />
+
+        <node pkg="performance_test" type="listener.py" name="pysub" output="screen" />
+
+        <node pkg="performance_test" type="talker.py" name="pypub" output="screen"/>
+
+
+</launch>
