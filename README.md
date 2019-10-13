@@ -25,6 +25,14 @@ Subscriber in this case was not as much limites as the the publisher.
 ### Python Publisher - Cpp Subscriber
 - The maximum rate I could achieve was ~18500
 
+## Launching the nodes
+
+'''
+roslaunch performance_test cpp-to-cpp.launch
+roslaunch performance_test cpp-to-pyt.launch
+roslaunch performance_test pyt-to-cpp.launch
+roslaunch performance_test pyt-to-pyt.launch
+
 
 
 
