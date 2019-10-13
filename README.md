@@ -6,7 +6,7 @@ Launch files have been provided to start each pair.
 There are two paramaters that control the testing phase:
 - Loop Rate
 - Epoch Interval (Interval after which we calculate frequency in subscriber node)
-These two parameters can be adjusted in param.yaml file
+These two parameters can be adjusted in params.yaml file
 
 ### Cpp Publisher - Cpp Subscriber
 There was no/minimal lag as such in terms of receiving messages at subscriber end. This node however is limited by the maximum 
